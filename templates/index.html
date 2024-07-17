@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+</head>
+<body>
+    <div id="evetything">
+        <div id="eightball" class="eightball">
+            <div id="response" class="eightball">
+                <h1 id="responseText">
+                    8
+                </h1>
+            </div>
+        </div>
+        <form action=" {{eightballanswer}} " method="POST">
+            <label for="question">Ask me anything!</label><br>
+            <input required type="text" id="question" name="question" value=""><br>
+            <input type="submit" id="submitButton">
+        </form>
+    </div>
+</body>
+</html>

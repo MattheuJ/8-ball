@@ -1,0 +1,48 @@
+#eightball{
+    border-radius: 50%;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+
+
+    
+}
+
+#response{
+    border-radius: 50%;
+    background-color: white;
+    height: 260px;
+    width: 260px;
+    translate: 0px 110px;
+}
+
+.eightball{
+    margin: auto;
+}
+
+#responseText{
+    text-align: center;
+    translate: 0px 110px;
+}
+
+#everything{
+    margin: auto;
+}
+
+#submitButton{
+   translate: 0px 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.globeAndText{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: auto;
+}
